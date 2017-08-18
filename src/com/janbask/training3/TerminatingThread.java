@@ -36,7 +36,7 @@ public class TerminatingThread {
 
                             //uncomment the below block to see how a thread can wait if it has nothing to do
                             /*try {
-                                Thread.sleep(100);
+                                Thread.sleep(1000);
                             }
                             catch (InterruptedException interruptedException){
                                 System.out.println("Thread was interrupted: checkerThread!");

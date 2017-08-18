@@ -2,6 +2,7 @@ package com.janbask.training3;
 
 public class DaemonThread extends Thread {
     public void run(){
+        //ToDo: create a good example of Deamon threads that can demo that the daemon thread gets terminated automatically when user threads are finished.
         if(Thread.currentThread().isDaemon()){//checking for daemon thread
             System.out.println("daemon thread work");
         }
